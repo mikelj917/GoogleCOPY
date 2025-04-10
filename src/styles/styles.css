@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #101218;
+    font-family: sans-serif;
+}
+header nav {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.google-apps-icon {
+    width: 38px;
+    height: 38px;
+    color: #fff;
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.google-apps-icon:hover {
+    background-color: #1F2126;
+}
+.google-apps-icon i {
+    font-size: 18px;
+}
+.user-img {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.user-img:hover {
+    background-color: #1F2126;
+}
+.user-img img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 143px);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 600px;
+}
+.container .input-box {
+    width: 100%;
+    position: relative;
+}
+.container input {
+    width: 100%;
+    background-color: #4D5160;
+    border: 0;
+    padding: 18px;
+    border-radius: 40px;
+    position: relative;
+    padding-left: 50px;
+    color: #FFF;
+    font-size: 16px;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+.buttons button {
+    background-color: #4D5160;
+    border: 1px solid #303134;
+    color: #e8eaed;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.buttons button:hover {
+    border-color: #e8eaed;
+}
+.container i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFF;
+    cursor: pointer;
+}
+footer .top-side,
+footer .bottom-side {
+    padding: 15px 30px;
+    background-color: #1F2128;
+    color: #e8eaed;
+    font-size: 14px;
+}
+footer .bottom-side {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-side .left-side a,
+.bottom-side .right-side a {
+    color: #e8eaed;
+    text-decoration: none;
+}
+.bottom-side a:hover {
+    text-decoration: underline;
+}
+.bottom-side .left-side,
+.bottom-side .right-side {
+    color: #e8eaed;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+}
